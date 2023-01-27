@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "toy-streamlit"
+version = "0.1.0"
+description = "toy project with streamlit"
+authors = ["Hansol-Lim <dev.hansollim@gmail.com>"]
+readme = "README.md"
+packages = [{include = "toy_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
